@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: content-box;
+    
+}
+
+
+:root{
+    --nav-bg-color: #1F8A70;
+    --main-bg-color: #EFF5F5;
+    --titulos-txt: font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background: var(--nav-bg-color);
+   
+    
+}
+
+.cont-form{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 80px 1fr 1fr 80px 1fr;
+
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.seccion-1{
+    grid-column: span 1;
+    grid-row: 2 / 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    background: ;
+}
+
+.seccion-1 input{
+    width: 90%;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.seccion-2{
+    grid-column: span 1;
+    grid-row: 3 / 4;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    background: ;
+}
+
+.seccion-2 input{
+    width: 90%;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.cont-btn{
+    grid-column: span 1;
+    grid-row: 4 / 5;
+    background: ;
+    display: flex;
+    justify-content: center;
+
+}
+
+label{
+    margin: 0 0 -15px 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.enviar{
+    width: 50%;
+    height: 30px;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.txt-advertencia{
+    grid-column: span 1;
+    grid-row: 5 / 6;
+    background: ;
+    width: 75%;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+    
+
+}
+
+.txt-advertencia p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width: 1080px){
+    .cont-form{
+        width: 40%;
+    }
+
+    
+}
